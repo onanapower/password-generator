@@ -9,16 +9,22 @@ because of the knowledge we have about how password can be generated and guessed
 
 - Your application should prompt the user for choices of uppercase letter, lowercase characters, special characters and also numerical characters.
 
-## First page image
+## Index page image
 
-- An HTML document containing the information collected from the prompts should be constructed and written to the file system. Be sure to add some CSS styling to the document.
+This is what the page looks like
 
-- You’ll need the following tools and technologies to accomplish this:
+![My Image](images/indexpage.png)
 
-  - `fs` for writing to the file system.
+- To generate password, you will first click on the red button below which initiate the prompt for number of characters needed in your pasword.
 
-  - `inquirer` for collecting user input.
+- This is follwed by prompts on the kind of characters that you will like to have in your password when generated. For example
 
-  - String template literals for generating a string version of the HTML document before it is written to the file system.
+![My Image](images/Resultpage.png)
 
-  - Promises for handling asynchronous behavior.
+- Ensure that you choose a number from 10 to 64 as any number not within that range is not permitted to be generated with a password character
+
+## Cautions
+
+-Ensure that you keep your password in save directory or where hackers will not have access to it
+
+- Saving password in the browser can expose your password to other people
